@@ -1,0 +1,128 @@
+*{
+	
+	padding: 0;
+	margin: 0;
+
+
+}
+
+
+nav {
+ 	padding: 50px;
+ 	text-align: center;
+ 	border-bottom: 1px solid;
+ }
+.row{
+	margin: 20px;
+}
+
+
+#container {
+	min-height: 100%;
+	height: 100%;
+}
+
+#submit_button{
+	margin: 20px;
+}
+section {
+
+
+	background: url(http://server1.decornorth.com/images/www.wallpaperzzz.com/wallpapers/normal/hires/highlighted-wooden-wall.jpg) no-repeat center center fixed; 
+	border-bottom: 1px solid;
+	box-sizing: border-box;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.shadow {
+	margin: 10px;
+	padding: 15px;
+	color: #000000;
+	background-color: #cc9966;
+	text-decoration: none;
+	border-radius: 10px;
+
+}
+form {
+	font-family: 'Chau Philomene One'
+}
+
+.shadow:hover {
+  color: #fff;
+  background-color: #bf8040;
+  box-shadow: -7px -6px #996633;
+  transform: translate(10px, 10px);
+  border-radius: 40px;
+}
+#not-active {
+   pointer-events: none;
+   cursor: default;
+}
+
+
+footer{
+	background-color: 	brown;
+
+}
+
+@font-face{
+font-family: 'Rubik Mono One', sans-serif; 
+font-family: 'Chau Philomene One', sans-serif;
+font-family: 'Montez', cursive;
+}
+
+
+
+h1, h2 {
+	font-family:  'Rubik Mono One';
+}
+
+a, p{
+	font-family: 'Chau Philomene One'
+}
+
+
+#footer {
+	font-family: 'Montez';
+}
+
+
+
+p#help {
+	background-color: white;
+	border: 2px solid;
+	border-radius: 10px;
+
+}
+.mg-flip-container {
+  perspective:1000px;
+}
+.mg-flip-container:hover .mg-flip-content,
+.mg-flip-container.hover .mg-flip-content {
+  transform:rotateY(180deg);
+}
+.mg-flip-container,.front-side,.back-side {
+  width: 277px;
+  height: 250px;
+}
+.mg-flip-content {
+  transition:1.5s; 
+  transform-style:preserve-3d;
+  position:relative;
+}
+.front-side,
+.back-side {
+  backface-visibility:hidden;
+  position:absolute;
+  top:0;
+  left:0;
+}
+.front-side {
+  z-index:2;
+  transform:rotateY(0deg);
+}
+.back-side {
+  transform:rotateY(180deg);
+}

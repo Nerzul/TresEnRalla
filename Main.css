@@ -1,0 +1,157 @@
+
+*{
+	
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+
+
+.row {
+	width: 100%;
+
+
+
+}
+
+.col-1 {width: 8.33%; float: left;}
+.col-2 {width: 16.66%; float: left;}
+.col-3 {width: 25%; float: left;}
+.col-4 {width: 33.33%; float: left;}
+.col-5 {width: 41.66%; float: left;}
+.col-6 {width: 50%; float: left;}
+.col-7 {width: 58.33%; float: left;}
+.col-8 {width: 66.66%; float: left;}
+.col-9 {width: 75%; float: left;}
+.col-10 {width: 83.33%; float: left;}
+.col-11 {width: 91.66%; float: left;}
+.col-12 {width: 100%;float: left;}
+
+
+
+
+.col-12 {
+	border-top: 1px solid;
+	float: left;
+	
+	border-bottom: 1px solid;
+	height: auto;
+
+
+}
+
+footer {
+ 	bottom: 0;
+ 	width: 100%;
+ 
+ 	float: left;
+ 	
+ 	background-color: brown;
+ }
+
+section {
+	float: left;
+	background: url(http://server1.decornorth.com/images/www.wallpaperzzz.com/wallpapers/normal/hires/highlighted-wooden-wall.jpg) no-repeat center center fixed; 
+	border-bottom: 1px solid;
+	box-sizing: border-box;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+}
+ 
+nav {
+ 	padding: 50px;
+ 	text-align: center;
+
+ }
+
+.shadow {
+	margin: 10px;
+	padding: 15px;
+	color: #000000;
+	background-color: #cc9966;
+	text-decoration: none;
+	border-radius: 10px;
+
+}
+
+canvas {
+	margin-top: 1%;
+	margin-left: 25%;
+	width: 760px;
+	background-color: #66ccff;
+	border-radius: 10px;
+
+}
+
+.shadow:hover {
+  color: #fff;
+  background-color: #bf8040;
+  box-shadow: -7px -6px #996633;
+  transform: translate(10px, 10px);
+  border-radius: 40px;
+}
+#not-active {
+   pointer-events: none;
+   cursor: default;
+}
+
+@font-face{
+font-family: 'Rubik Mono One', sans-serif; 
+font-family: 'Chau Philomene One', sans-serif;
+font-family: 'Montez', cursive;
+}
+
+
+
+h1 {
+	font-family:  'Rubik Mono One';
+}
+
+a{
+	font-family: 'Chau Philomene One'
+}
+
+p{
+	font-family: 'Montez';
+}
+
+
+.playbutton {
+	border-radius: 10px;
+}
+
+.mg-flip-container {
+  perspective:1000px;
+}
+.mg-flip-container:hover .mg-flip-content,
+.mg-flip-container.hover .mg-flip-content {
+  transform:rotateY(180deg);
+}
+.mg-flip-container,.front-side,.back-side {
+  width: 277px;
+  height: 250px;
+}
+.mg-flip-content {
+  transition:1.5s; 
+  transform-style:preserve-3d;
+  position:relative;
+}
+.front-side,
+.back-side {
+  backface-visibility:hidden;
+  position:absolute;
+  top:0;
+  left:0;
+}
+.front-side {
+  z-index:2;
+  transform:rotateY(0deg);
+}
+.back-side {
+  transform:rotateY(180deg);
+}
